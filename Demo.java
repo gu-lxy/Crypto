@@ -25,7 +25,8 @@ public class Demo {
         System.out.println(demo.data);
         //加密
         byte[] cipherText = demo.encrypt(demo.key.getBytes(), demo.data.getBytes());
-        System.out.println(cipherText);//[B@4ec6a292
+        System.out.println(cipherText);
+
 
     }
 
@@ -126,5 +127,6 @@ public class Demo {
             e.printStackTrace();
         }
         return null;
+
     }
 }
