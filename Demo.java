@@ -1,7 +1,5 @@
 package Demo;
 
-
-
 import javax.crypto.*;
 import javax.crypto.spec.DESKeySpec;
 import java.security.InvalidKeyException;
@@ -26,8 +24,6 @@ public class Demo {
         //加密
         byte[] cipherText = demo.encrypt(demo.key.getBytes(), demo.data.getBytes());
         System.out.println(cipherText);
-
-
     }
 
     /**
@@ -62,6 +58,7 @@ public class Demo {
         }
         //、四声
         return null;
+
     }
 
     //函数一：加密
