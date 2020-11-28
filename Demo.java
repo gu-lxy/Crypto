@@ -23,7 +23,8 @@ public class Demo {
         System.out.println(demo.data);
         //加密
         byte[] cipherText = demo.encrypt(demo.key.getBytes(), demo.data.getBytes());
-        System.out.println(cipherText);
+        System.out.println(cipherText);//[B@4ec6a292
+
     }
 
     /**
@@ -58,7 +59,6 @@ public class Demo {
         }
         //、四声
         return null;
-
     }
 
     //函数一：加密
@@ -124,6 +124,5 @@ public class Demo {
             e.printStackTrace();
         }
         return null;
-
     }
 }
